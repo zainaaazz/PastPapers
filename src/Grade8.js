@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import "./index.css";
+
 
 function Grade8() {
   return (   
