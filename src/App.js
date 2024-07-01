@@ -1,10 +1,28 @@
 import React from 'react';
+import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
+import Grade8 from './Grade8';
+import Geography from './Geography';
 
 function App() {
   return (
-    <div>
-      <h1>Welcome to Past Papers App</h1>
-    </div>
+    <Router>
+      <div>
+        <h1>Welcome to Past Papers App</h1>
+        <nav>
+          <ul>
+            <li>
+              <Link to="/grade8">Grade 8</Link>
+            </li>
+            {/* Add links for other grades as needed */}
+          </ul>
+        </nav>
+        <Switch>
+          <Route path="/grade8" component={Grade8} />
+          <Route path="/geography" component={Geography} />
+          {/* Add routes for other subjects and grades as needed */}
+        </Switch>
+      </div>
+    </Router>
   );
 }
 
