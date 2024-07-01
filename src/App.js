@@ -18,7 +18,7 @@ function App() {
         </nav>
         <Switch>
           <Route path="/grade8" component={Grade8} />
-          <Route path="/geography" component={Geography} />
+          <Route path="/8Geography" component={Geography} />
           {/* Add routes for other subjects and grades as needed */}
         </Switch>
       </div>
