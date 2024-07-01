@@ -9,6 +9,12 @@ function Grade8() {
         <li>
           <Link to="/8Geography">Geography</Link>
         </li>
+        <li>Mathematics</li>
+        <li>English HL</li>
+        <li>Afrikaans</li>
+        <li>History</li>
+        <li>EMS</li>
+        <li>Technology</li>
         {/* Add links for other subjects as needed */}
       </ul>
     </div>

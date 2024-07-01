@@ -13,6 +13,9 @@ function App() {
             <li>
               <Link to="/grade8">Grade 8</Link>
             </li>
+            <li>Grade 9</li>
+            <li>Grade 10</li>
+            <li>Grade 11</li>
             {/* Add links for other grades as needed */}
           </ul>
         </nav>
