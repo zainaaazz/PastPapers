@@ -1,7 +1,7 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Grade8 from './Grade8';
-import Geography from './8Geography';
+import Geography from './Geography';
 
 function App() {
   return (
@@ -16,11 +16,11 @@ function App() {
             {/* Add links for other grades as needed */}
           </ul>
         </nav>
-        <Switch>
-          <Route path="/grade8" component={Grade8} />
-          <Route path="/8Geography" component={Geography} />
+        <Routes>
+          <Route path="/grade8" element={<Grade8 />} />
+          <Route path="/geography" element={<Geography />} />
           {/* Add routes for other subjects and grades as needed */}
-        </Switch>
+        </Routes>
       </div>
     </Router>
   );
