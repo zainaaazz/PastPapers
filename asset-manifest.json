@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/PastPapers/static/js/main.ac2911c2.js",
+    "main.js": "/PastPapers/static/js/main.edb5c9f9.js",
     "index.html": "/PastPapers/index.html",
-    "main.ac2911c2.js.map": "/PastPapers/static/js/main.ac2911c2.js.map"
+    "main.edb5c9f9.js.map": "/PastPapers/static/js/main.edb5c9f9.js.map"
   },
   "entrypoints": [
-    "static/js/main.ac2911c2.js"
+    "static/js/main.edb5c9f9.js"
   ]
 }
