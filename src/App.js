@@ -17,16 +17,18 @@ function App() {
         <a><Link to="/Grade9">Grade 9</Link></a>
         <a><Link to="/Grade10">Grade 10</Link></a>
         <a><Link to="/Grade11">Grade 11</Link></a>
-      </div>
 
-      <div>
-        <h1>Welcome to Past Papers App</h1>
-      
         <Routes>
           <Route path="/grade8" element={<Grade8 />} />
           <Route path="/8Geography" element={<Geography />} />
           {/* Add routes for other subjects and grades as needed */}
         </Routes>
+      </div>
+
+      <div>
+        <h1>Welcome to Past Papers App</h1>
+      
+       
       </div>
     </Router>
   );
