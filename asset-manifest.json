@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/PastPapers/static/css/main.3f283692.css",
-    "main.js": "/PastPapers/static/js/main.ebf270b0.js",
+    "main.css": "/PastPapers/static/css/main.7c04677d.css",
+    "main.js": "/PastPapers/static/js/main.904892a7.js",
     "static/media/8P1.pdf": "/PastPapers/static/media/8P1.c1f3f42c2b29c39dc582.pdf",
     "index.html": "/PastPapers/index.html",
-    "main.3f283692.css.map": "/PastPapers/static/css/main.3f283692.css.map",
-    "main.ebf270b0.js.map": "/PastPapers/static/js/main.ebf270b0.js.map"
+    "main.7c04677d.css.map": "/PastPapers/static/css/main.7c04677d.css.map",
+    "main.904892a7.js.map": "/PastPapers/static/js/main.904892a7.js.map"
   },
   "entrypoints": [
-    "static/css/main.3f283692.css",
-    "static/js/main.ebf270b0.js"
+    "static/css/main.7c04677d.css",
+    "static/js/main.904892a7.js"
   ]
 }
