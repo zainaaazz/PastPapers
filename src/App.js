@@ -8,13 +8,18 @@ function App() {
   return (
     <Router>
 
-      <div class="navbar">
+      <div class="navbar">Grades</div>
+        
+      <div class="container">
         <Link to="/grade8">Grade 8</Link>
+        <Link to="/Grade9">Grade 9</Link>
+        <Link to="/Grade10">Grade 10</Link>
+        <Link to="/Grade11">Grade 11</Link>
       </div>
 
       <div>
         <h1>Welcome to Past Papers App</h1>
-        <nav class="container">
+        <nav>
           <ul>
             <li>
               <Link to="/grade8">Grade 8</Link>
