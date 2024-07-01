@@ -1,11 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
+import "./index.css";
 
 function Grade8() {
   return (   
       <div>
           
+          {/* NAVBAR DUPLICATES AND DOES NOT REPLACE */}
           <div class="navbar"><Link to="/">Grades</Link> &gt; Grade 8 </div>
         
           <div>
