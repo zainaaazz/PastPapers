@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Grade8 from './Grade8';
-import Geography from './Geography';
+import Geography from './8Geography';
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
         </nav>
         <Routes>
           <Route path="/grade8" element={<Grade8 />} />
-          <Route path="/geography" element={<Geography />} />
+          <Route path="/8Geography" element={<Geography />} />
           {/* Add routes for other subjects and grades as needed */}
         </Routes>
       </div>
