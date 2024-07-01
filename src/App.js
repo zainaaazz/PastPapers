@@ -13,10 +13,10 @@ function App() {
       {/* CONTAINER DOES NOT WORK?? */}
 
       <div class="container">
-        <Link to="/grade8">Grade 8</Link>
-        <Link to="/Grade9">Grade 9</Link>
-        <Link to="/Grade10">Grade 10</Link>
-        <Link to="/Grade11">Grade 11</Link>
+        <a><Link to="/grade8">Grade 8</Link></a>
+        <a><Link to="/Grade9">Grade 9</Link></a>
+        <a><Link to="/Grade10">Grade 10</Link></a>
+        <a><Link to="/Grade11">Grade 11</Link></a>
       </div>
 
       <div>
