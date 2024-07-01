@@ -6,6 +6,11 @@ body {
     color: #fff;
 }
 
+h1{
+    color: #fff;
+    font-size:xx-large;
+}
+
 .navbar {
     background-color: #444;
     padding: 10px;

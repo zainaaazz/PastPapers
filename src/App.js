@@ -7,9 +7,14 @@ import "./styles.css";
 function App() {
   return (
     <Router>
+
+      <div class="navbar">
+        <Link to="/grade8">Grade 8</Link>
+      </div>
+
       <div>
         <h1>Welcome to Past Papers App</h1>
-        <nav>
+        <nav class="container">
           <ul>
             <li>
               <Link to="/grade8">Grade 8</Link>
@@ -29,5 +34,8 @@ function App() {
     </Router>
   );
 }
+
+
+
 
 export default App;
