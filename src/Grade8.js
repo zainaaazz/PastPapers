@@ -7,7 +7,7 @@ function Grade8() {
       <h2>Grade 8 Subjects</h2>
       <ul>
         <li>
-          <Link to="/geography">Geography</Link>
+          <Link to="/8Geography">Geography</Link>
         </li>
         {/* Add links for other subjects as needed */}
       </ul>
