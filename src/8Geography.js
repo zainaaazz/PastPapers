@@ -10,7 +10,8 @@ function Geography() {
     
     <div>
       <div class="navbar">
-        <Link to="/">grade8</Link> &gt; Geography 
+        <Link to="/index">Grades</Link> &gt;
+        <Link to="/grade8">Geade 8</Link> &gt; Geography 
       </div>
 
       <div>
