@@ -1,12 +1,17 @@
 import React from 'react';
 import myPDF from './papers/8P1.pdf';
+import Grade8 from './Grade8';
+import Grades from './index';
+
 
 function Geography() {
   return (
 
     
     <div>
-      <div class="navbar"><Link to="/">Grades</Link> &gt; <Link to="/">Grade8</Link> &gt; Geography </div>
+      <div class="navbar">
+        <Link to="/">Grades</Link> &gt; <Link to="/">Grade8</Link> &gt; Geography 
+      </div>
 
       <div>
         <h2>Geography Past Papers</h2>
