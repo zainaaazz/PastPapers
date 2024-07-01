@@ -1,5 +1,5 @@
 import React from 'react';
-import myPDF from '/8P1.pdf';
+import myPDF from './8P1.pdf';
 
 function Geography() {
   return (
