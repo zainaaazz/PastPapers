@@ -1,5 +1,5 @@
 import React from 'react';
-import myPDF from './8P1.pdf';
+import myPDF from './papers/8P1.pdf';
 
 function Geography() {
   return (
@@ -7,7 +7,7 @@ function Geography() {
       <h2>Geography Past Papers</h2>
       <ul>
         <li>  
-          <a href={myPDF ? myPDF : '/8P1.pdf'} target="_blank" rel="noreferrer">
+          <a href={myPDF ? myPDF : '/papers/8P1.pdf'} target="_blank" rel="noreferrer">
           Click here to view the PDF - June 2018 Memo
         </a>
         </li>
