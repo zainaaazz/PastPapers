@@ -1,10 +1,13 @@
 {
   "files": {
+    "main.css": "/PastPapers/static/css/main.3f283692.css",
     "main.js": "/PastPapers/static/js/main.edb5c9f9.js",
     "index.html": "/PastPapers/index.html",
+    "main.3f283692.css.map": "/PastPapers/static/css/main.3f283692.css.map",
     "main.edb5c9f9.js.map": "/PastPapers/static/js/main.edb5c9f9.js.map"
   },
   "entrypoints": [
+    "static/css/main.3f283692.css",
     "static/js/main.edb5c9f9.js"
   ]
 }
