@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
 import Grade8 from './Grade8';
-import Geography from './Geography';
+import Geography from './8Geography';
 
 function App() {
   return (
