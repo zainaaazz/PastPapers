@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Grade8 from './Grade8';
 import Geography from './8Geography';
-import "./styles.css";
+import "./index.css";
 
 function App() {
   return (
