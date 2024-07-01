@@ -25,11 +25,22 @@ function App() {
         <h1>Welcome to Past Papers App</h1>
         <Routes>
           <Route path="/grade8" element={<Grade8 />} />
-          <Route path="/8Geography" element={<Geography />} />
+          
           {/* Add routes for other subjects and grades as needed */}
         </Routes>
        
       </div>
+
+      <div>
+        <h1> geography</h1>
+        <Routes>
+        <Route path="/8Geography" element={<Geography />} />
+          
+          {/* Add routes for other subjects and grades as needed */}
+        </Routes>
+       
+      </div>
+
     </Router>
   );
 }
