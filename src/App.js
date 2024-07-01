@@ -8,7 +8,7 @@ import './index.css';
 function App() {
   return (
     <Router>
-      <div className="navbar">Grades</div>
+      <div className="navbar"><Link to="/">Grades</Link></div>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/grade8" element={<Grade8 />} />
