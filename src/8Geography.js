@@ -1,5 +1,6 @@
 import React from 'react';
 import myPDF from './papers/8P1.pdf';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Grade8 from './Grade8';
 import Grades from './index';
 
